@@ -1,0 +1,25 @@
+Analyst Comparison
+==================
+
+Investors:
+     TRS  Tammy R. Samuelson            
+     SJL  Samuel J Larsen               
+
+
+Overall Performance:
+               |     TRS     |     SJL     |
+               |-------------|-------------|
+D (days)       |          200|          204|
+Seed Amount ($)|    100000.00|    100000.00|
+TPL ($)        |      2862.65|      3260.25|
+PLPD ($)       |        14.31|        15.98|
+
+
+Stock Performance:
+        |          SPLPD's          |
+        |     TRS     |     SJL     |
+        |-------------|-------------|
+AMZN    |       7.9957|       9.8476|
+AAPL    |       6.7373|       6.2649|
+MSFT    |       0.3122|             |
+GOOGL   |       6.0070|       9.2788|

@@ -1,0 +1,26 @@
+Analyst Comparison
+==================
+
+Investors:
+     MGR  Mary G. Richardson            
+     TRS  Tammy R. Samuelson            
+     SJL  Samuel J Larsen               
+
+
+Overall Performance:
+               |     MGR     |     TRS     |     SJL     |
+               |-------------|-------------|-------------|
+D (days)       |          220|          200|          204|
+Seed Amount ($)|    100000.00|    100000.00|    100000.00|
+TPL ($)        |      3749.20|      2862.65|      3260.25|
+PLPD ($)       |        17.04|        14.31|        15.98|
+
+
+Stock Performance:
+        |                 SPLPD's                 |
+        |     MGR     |     TRS     |     SJL     |
+        |-------------|-------------|-------------|
+AMZN    |      21.5111|       7.9957|       9.8476|
+MSFT    |      -0.2056|       0.3122|             |
+AAPL    |             |       6.7373|       6.2649|
+GOOGL   |             |       6.0070|       9.2788|

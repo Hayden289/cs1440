@@ -1,0 +1,10 @@
+//
+// Created by Stephen Clyde on 1/18/17.
+//
+
+#ifndef ANALYSTCOMPARER_CONSTANTS_H_H
+#define ANALYSTCOMPARER_CONSTANTS_H_H
+
+#define MAX_SYMBOLS 100
+
+#endif //ANALYSTCOMPARER_CONSTANTS_H_H
