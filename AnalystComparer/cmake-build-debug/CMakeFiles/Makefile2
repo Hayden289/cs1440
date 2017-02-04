@@ -54,10 +54,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/swc/Dropbox/UnderGit/cs1440s17-shared/AnalystComparer
+CMAKE_SOURCE_DIR = /Users/hayden.nielsen/cs1440/AnalystComparer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/swc/Dropbox/UnderGit/cs1440s17-shared/AnalystComparer/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/hayden.nielsen/cs1440/AnalystComparer/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/AnalystComparer.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/swc/Dropbox/UnderGit/cs1440s17-shared/AnalystComparer/
 CMakeFiles/AnalystComparer.dir/all:
 	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/depend
 	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/swc/Dropbox/UnderGit/cs1440s17-shared/AnalystComparer/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target AnalystComparer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/hayden.nielsen/cs1440/AnalystComparer/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target AnalystComparer"
 .PHONY : CMakeFiles/AnalystComparer.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/AnalystComparer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AnalystComparer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/swc/Dropbox/UnderGit/cs1440s17-shared/AnalystComparer/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hayden.nielsen/cs1440/AnalystComparer/cmake-build-debug/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AnalystComparer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/swc/Dropbox/UnderGit/cs1440s17-shared/AnalystComparer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hayden.nielsen/cs1440/AnalystComparer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/AnalystComparer.dir/rule
 
 # Convenience name for target.

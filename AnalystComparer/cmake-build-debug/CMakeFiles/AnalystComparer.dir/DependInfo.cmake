@@ -4,9 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/AnalystComparer/Comparer.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/AnalystComparer/cmake-build-debug/CMakeFiles/AnalystComparer.dir/Comparer.cpp.o"
-  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/AnalystComparer/Utils.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/AnalystComparer/cmake-build-debug/CMakeFiles/AnalystComparer.dir/Utils.cpp.o"
-  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/AnalystComparer/main.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/AnalystComparer/cmake-build-debug/CMakeFiles/AnalystComparer.dir/main.cpp.o"
+  "/Users/hayden.nielsen/cs1440/AnalystComparer/Analyst.cpp" "/Users/hayden.nielsen/cs1440/AnalystComparer/cmake-build-debug/CMakeFiles/AnalystComparer.dir/Analyst.cpp.o"
+  "/Users/hayden.nielsen/cs1440/AnalystComparer/ColumnDefinition.cpp" "/Users/hayden.nielsen/cs1440/AnalystComparer/cmake-build-debug/CMakeFiles/AnalystComparer.dir/ColumnDefinition.cpp.o"
+  "/Users/hayden.nielsen/cs1440/AnalystComparer/Comparer.cpp" "/Users/hayden.nielsen/cs1440/AnalystComparer/cmake-build-debug/CMakeFiles/AnalystComparer.dir/Comparer.cpp.o"
+  "/Users/hayden.nielsen/cs1440/AnalystComparer/FormattedCell.cpp" "/Users/hayden.nielsen/cs1440/AnalystComparer/cmake-build-debug/CMakeFiles/AnalystComparer.dir/FormattedCell.cpp.o"
+  "/Users/hayden.nielsen/cs1440/AnalystComparer/FormattedRow.cpp" "/Users/hayden.nielsen/cs1440/AnalystComparer/cmake-build-debug/CMakeFiles/AnalystComparer.dir/FormattedRow.cpp.o"
+  "/Users/hayden.nielsen/cs1440/AnalystComparer/FormattedTable.cpp" "/Users/hayden.nielsen/cs1440/AnalystComparer/cmake-build-debug/CMakeFiles/AnalystComparer.dir/FormattedTable.cpp.o"
+  "/Users/hayden.nielsen/cs1440/AnalystComparer/History.cpp" "/Users/hayden.nielsen/cs1440/AnalystComparer/cmake-build-debug/CMakeFiles/AnalystComparer.dir/History.cpp.o"
+  "/Users/hayden.nielsen/cs1440/AnalystComparer/PurchaseSale.cpp" "/Users/hayden.nielsen/cs1440/AnalystComparer/cmake-build-debug/CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.o"
+  "/Users/hayden.nielsen/cs1440/AnalystComparer/Utils.cpp" "/Users/hayden.nielsen/cs1440/AnalystComparer/cmake-build-debug/CMakeFiles/AnalystComparer.dir/Utils.cpp.o"
+  "/Users/hayden.nielsen/cs1440/AnalystComparer/main.cpp" "/Users/hayden.nielsen/cs1440/AnalystComparer/cmake-build-debug/CMakeFiles/AnalystComparer.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

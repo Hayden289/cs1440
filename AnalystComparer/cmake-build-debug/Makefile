@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/swc/Dropbox/UnderGit/cs1440s17-shared/AnalystComparer
+CMAKE_SOURCE_DIR = /Users/hayden.nielsen/cs1440/AnalystComparer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/swc/Dropbox/UnderGit/cs1440s17-shared/AnalystComparer/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/hayden.nielsen/cs1440/AnalystComparer/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/swc/Dropbox/UnderGit/cs1440s17-shared/AnalystComparer/cmake-build-debug/CMakeFiles /Users/swc/Dropbox/UnderGit/cs1440s17-shared/AnalystComparer/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hayden.nielsen/cs1440/AnalystComparer/cmake-build-debug/CMakeFiles /Users/hayden.nielsen/cs1440/AnalystComparer/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/swc/Dropbox/UnderGit/cs1440s17-shared/AnalystComparer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hayden.nielsen/cs1440/AnalystComparer/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,60 @@ AnalystComparer/fast:
 	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/build
 .PHONY : AnalystComparer/fast
 
+Analyst.o: Analyst.cpp.o
+
+.PHONY : Analyst.o
+
+# target to build an object file
+Analyst.cpp.o:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/Analyst.cpp.o
+.PHONY : Analyst.cpp.o
+
+Analyst.i: Analyst.cpp.i
+
+.PHONY : Analyst.i
+
+# target to preprocess a source file
+Analyst.cpp.i:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/Analyst.cpp.i
+.PHONY : Analyst.cpp.i
+
+Analyst.s: Analyst.cpp.s
+
+.PHONY : Analyst.s
+
+# target to generate assembly for a file
+Analyst.cpp.s:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/Analyst.cpp.s
+.PHONY : Analyst.cpp.s
+
+ColumnDefinition.o: ColumnDefinition.cpp.o
+
+.PHONY : ColumnDefinition.o
+
+# target to build an object file
+ColumnDefinition.cpp.o:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/ColumnDefinition.cpp.o
+.PHONY : ColumnDefinition.cpp.o
+
+ColumnDefinition.i: ColumnDefinition.cpp.i
+
+.PHONY : ColumnDefinition.i
+
+# target to preprocess a source file
+ColumnDefinition.cpp.i:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/ColumnDefinition.cpp.i
+.PHONY : ColumnDefinition.cpp.i
+
+ColumnDefinition.s: ColumnDefinition.cpp.s
+
+.PHONY : ColumnDefinition.s
+
+# target to generate assembly for a file
+ColumnDefinition.cpp.s:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/ColumnDefinition.cpp.s
+.PHONY : ColumnDefinition.cpp.s
+
 Comparer.o: Comparer.cpp.o
 
 .PHONY : Comparer.o
@@ -149,6 +203,141 @@ Comparer.s: Comparer.cpp.s
 Comparer.cpp.s:
 	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/Comparer.cpp.s
 .PHONY : Comparer.cpp.s
+
+FormattedCell.o: FormattedCell.cpp.o
+
+.PHONY : FormattedCell.o
+
+# target to build an object file
+FormattedCell.cpp.o:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/FormattedCell.cpp.o
+.PHONY : FormattedCell.cpp.o
+
+FormattedCell.i: FormattedCell.cpp.i
+
+.PHONY : FormattedCell.i
+
+# target to preprocess a source file
+FormattedCell.cpp.i:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/FormattedCell.cpp.i
+.PHONY : FormattedCell.cpp.i
+
+FormattedCell.s: FormattedCell.cpp.s
+
+.PHONY : FormattedCell.s
+
+# target to generate assembly for a file
+FormattedCell.cpp.s:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/FormattedCell.cpp.s
+.PHONY : FormattedCell.cpp.s
+
+FormattedRow.o: FormattedRow.cpp.o
+
+.PHONY : FormattedRow.o
+
+# target to build an object file
+FormattedRow.cpp.o:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/FormattedRow.cpp.o
+.PHONY : FormattedRow.cpp.o
+
+FormattedRow.i: FormattedRow.cpp.i
+
+.PHONY : FormattedRow.i
+
+# target to preprocess a source file
+FormattedRow.cpp.i:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/FormattedRow.cpp.i
+.PHONY : FormattedRow.cpp.i
+
+FormattedRow.s: FormattedRow.cpp.s
+
+.PHONY : FormattedRow.s
+
+# target to generate assembly for a file
+FormattedRow.cpp.s:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/FormattedRow.cpp.s
+.PHONY : FormattedRow.cpp.s
+
+FormattedTable.o: FormattedTable.cpp.o
+
+.PHONY : FormattedTable.o
+
+# target to build an object file
+FormattedTable.cpp.o:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/FormattedTable.cpp.o
+.PHONY : FormattedTable.cpp.o
+
+FormattedTable.i: FormattedTable.cpp.i
+
+.PHONY : FormattedTable.i
+
+# target to preprocess a source file
+FormattedTable.cpp.i:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/FormattedTable.cpp.i
+.PHONY : FormattedTable.cpp.i
+
+FormattedTable.s: FormattedTable.cpp.s
+
+.PHONY : FormattedTable.s
+
+# target to generate assembly for a file
+FormattedTable.cpp.s:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/FormattedTable.cpp.s
+.PHONY : FormattedTable.cpp.s
+
+History.o: History.cpp.o
+
+.PHONY : History.o
+
+# target to build an object file
+History.cpp.o:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/History.cpp.o
+.PHONY : History.cpp.o
+
+History.i: History.cpp.i
+
+.PHONY : History.i
+
+# target to preprocess a source file
+History.cpp.i:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/History.cpp.i
+.PHONY : History.cpp.i
+
+History.s: History.cpp.s
+
+.PHONY : History.s
+
+# target to generate assembly for a file
+History.cpp.s:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/History.cpp.s
+.PHONY : History.cpp.s
+
+PurchaseSale.o: PurchaseSale.cpp.o
+
+.PHONY : PurchaseSale.o
+
+# target to build an object file
+PurchaseSale.cpp.o:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.o
+.PHONY : PurchaseSale.cpp.o
+
+PurchaseSale.i: PurchaseSale.cpp.i
+
+.PHONY : PurchaseSale.i
+
+# target to preprocess a source file
+PurchaseSale.cpp.i:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.i
+.PHONY : PurchaseSale.cpp.i
+
+PurchaseSale.s: PurchaseSale.cpp.s
+
+.PHONY : PurchaseSale.s
+
+# target to generate assembly for a file
+PurchaseSale.cpp.s:
+	$(MAKE) -f CMakeFiles/AnalystComparer.dir/build.make CMakeFiles/AnalystComparer.dir/PurchaseSale.cpp.s
+.PHONY : PurchaseSale.cpp.s
 
 Utils.o: Utils.cpp.o
 
@@ -213,9 +402,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... AnalystComparer"
+	@echo "... Analyst.o"
+	@echo "... Analyst.i"
+	@echo "... Analyst.s"
+	@echo "... ColumnDefinition.o"
+	@echo "... ColumnDefinition.i"
+	@echo "... ColumnDefinition.s"
 	@echo "... Comparer.o"
 	@echo "... Comparer.i"
 	@echo "... Comparer.s"
+	@echo "... FormattedCell.o"
+	@echo "... FormattedCell.i"
+	@echo "... FormattedCell.s"
+	@echo "... FormattedRow.o"
+	@echo "... FormattedRow.i"
+	@echo "... FormattedRow.s"
+	@echo "... FormattedTable.o"
+	@echo "... FormattedTable.i"
+	@echo "... FormattedTable.s"
+	@echo "... History.o"
+	@echo "... History.i"
+	@echo "... History.s"
+	@echo "... PurchaseSale.o"
+	@echo "... PurchaseSale.i"
+	@echo "... PurchaseSale.s"
 	@echo "... Utils.o"
 	@echo "... Utils.i"
 	@echo "... Utils.s"
