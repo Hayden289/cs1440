@@ -1,0 +1,17 @@
+Investors:
+TRS       Tammy R. Samuelson
+          
+
+Overall Performance:
+      Analyst       |                Days|         Seed Amount|                 TPL|                PLPD|
+--------------------|--------------------|--------------------|--------------------|--------------------|
+        TRS         |                 200|            10000000|             2862.65|               14.31|
+                    |                 200|            10000000|                0.00|                0.00|
+
+Stock Performance:
+Symbol              |TRS                 |                    |
+--------------------|--------------------|--------------------|
+AMZN                |8.00                |nan                 |
+AAPL                |6.74                |nan                 |
+MSFT                |0.31                |nan                 |
+GOOGL               |6.01                |nan                 |

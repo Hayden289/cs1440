@@ -1,0 +1,19 @@
+Investors:
+MGR       Mary G. Richardson
+SJL       Samuel J Larsen
+TRS       Tammy R. Samuelson
+
+Overall Performance:
+      Analyst       |                Days|         Seed Amount|                 TPL|                PLPD|
+--------------------|--------------------|--------------------|--------------------|--------------------|
+        MGR         |                 220|            10000000|             3749.20|               17.04|
+        SJL         |                 204|            10000000|             3260.25|               15.98|
+        TRS         |                 200|            10000000|             2862.65|               14.31|
+
+Stock Performance:
+Symbol              |MGR                 |SJL                 |TRS                 |
+--------------------|--------------------|--------------------|--------------------|
+AMZN                |21.51               |9.85                |8.00                |
+MSFT                |-0.21               |nan                 |0.31                |
+AAPL                |nan                 |6.26                |6.74                |
+GOOGL               |nan                 |9.28                |6.01                |

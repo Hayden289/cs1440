@@ -1,0 +1,19 @@
+Investors:
+MGR       Mary G. Richardson
+TRS       Tammy R. Samuelson
+          
+
+Overall Performance:
+      Analyst       |                Days|         Seed Amount|                 TPL|                PLPD|
+--------------------|--------------------|--------------------|--------------------|--------------------|
+        MGR         |                 220|            10000000|             3749.20|               17.04|
+        TRS         |                 200|            10000000|             2862.65|               14.31|
+                    |                 200|            10000000|                0.00|                0.00|
+
+Stock Performance:
+Symbol              |MGR                 |TRS                 |                    |
+--------------------|--------------------|--------------------|--------------------|
+AMZN                |21.51               |8.00                |nan                 |
+MSFT                |-0.21               |0.31                |nan                 |
+AAPL                |nan                 |6.74                |nan                 |
+GOOGL               |nan                 |6.01                |nan                 |
