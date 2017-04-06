@@ -1,0 +1,4 @@
+/Users/hayden.nielsen/cs1440/GenericDictionary/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hayden.nielsen/cs1440/GenericDictionary/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/hayden.nielsen/cs1440/GenericDictionary/cmake-build-debug/CMakeFiles/Test.dir
+/Users/hayden.nielsen/cs1440/GenericDictionary/cmake-build-debug/CMakeFiles/GenericDictionary.dir
